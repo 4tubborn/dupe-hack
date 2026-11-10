@@ -1,0 +1,19 @@
+{
+    "pack": {
+        "description": "",
+        "min_format": 94,
+        "max_format": 114514,
+        "pack_format": 94,
+        "supported_formats": [48,114514]
+    },
+    "overlays": {
+        "entries": [
+            {
+              "directory": "s_since_26.3",
+              "formats": [121,114514],
+              "min_format": 121,
+              "max_format": 114514
+            }
+        ]
+    }
+}

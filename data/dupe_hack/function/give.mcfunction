@@ -1,0 +1,1 @@
+loot give @s loot dupe_hack:dupe_hack

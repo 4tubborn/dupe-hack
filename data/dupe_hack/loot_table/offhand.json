@@ -1,0 +1,13 @@
+{
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+            "type": "slots",
+            "slot_source": [{"type": "slot_range","source": "this","slots": "weapon.offhand"}],
+            "functions": [{
+                "function": "limit_count",
+                "limit": {"max": 1}
+            }]
+        }]
+    }]
+}

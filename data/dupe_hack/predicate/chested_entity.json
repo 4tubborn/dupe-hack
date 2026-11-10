@@ -1,0 +1,4 @@
+[
+    {"condition": "reference", "name": "dupe_hack:drop_chance"},
+    {"condition": "reference", "name": "dupe_hack:chested"}
+]

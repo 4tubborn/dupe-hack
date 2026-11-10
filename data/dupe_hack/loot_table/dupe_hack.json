@@ -1,0 +1,25 @@
+{
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+            "type": "item",
+            "name": "recovery_compass",
+            "functions": [{
+                "function": "set_components",
+                "components": {
+                    "rarity": "common",
+                    "item_name": "Dupe Hack",
+                    "item_model": "minecraft:missingno",
+                    "custom_data": {
+                        "id": "dupe_hack:dupe_hack"
+                    },
+                    "consumable": {
+                        "animation": "eat",
+                        "has_consume_particles": false,
+                        "consume_seconds": 99999999999999
+                    }
+                }
+            }]
+        }]
+    }]
+}

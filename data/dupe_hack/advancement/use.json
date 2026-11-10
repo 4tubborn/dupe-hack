@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "items": "recovery_compass",
+                    "predicates": {
+                        "custom_data": {
+                            "id": "dupe_hack:dupe_hack"
+                        }
+                    }
+                },
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": "recovery_compass",
+                            "predicates": {
+                                "custom_data": {
+                                    "id": "dupe_hack:dupe_hack"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {"function": "dupe_hack:use"}
+}

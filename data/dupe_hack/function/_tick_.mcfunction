@@ -1,0 +1,2 @@
+execute as @e[type=#dupe_hack:track,tag=!dupe_hack.tracked] at @s run function dupe_hack:track/start
+execute as @e[type=marker,tag=dupe_hack.marker,predicate=!dupe_hack:has_vehicle] at @s run function dupe_hack:track/end
