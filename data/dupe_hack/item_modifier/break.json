@@ -1,24 +1,33 @@
 {
-    "function": "set_count",
-    "add": true,
-    "count": -1,
-    "conditions": [{
-        "condition": "value_check",
-        "value": {
-            "type": "uniform",
-            "min": 1,
-            "max": 100
-        },
-        "range": {
-            "min": 1,
-            "max": {
-                "type": "score",
-                "score": "dupe_hack.config",
-                "target": {
-                    "type": "fixed",
-                    "name": "#break_chance"
-                }
-            }
+  "function": "minecraft:set_count",
+  "add": true,
+  "count": -1,
+  "conditions": [
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#unbreaking_level"
+          },
+          "score": "dupe_hack.config"
         }
-    }]
+      },
+      "range": {
+        "min": 1,
+        "max": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#break_chance"
+          },
+          "score": "dupe_hack.config"
+        }
+      }
+    }
+  ]
 }

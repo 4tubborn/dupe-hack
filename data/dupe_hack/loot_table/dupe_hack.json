@@ -7,6 +7,18 @@
             "functions": [{
                 "function": "set_components",
                 "components": {
+                    "max_stack_size": 99,
+                    "use_effects": {
+                        "can_sprint": true,
+                        "speed_multiplier": 1,
+                        "interact_vibrations": false
+                    },
+                    "damage_resistant": {
+                        "types": "#dupe_hack:all"
+                    },
+                    "enchantable": {
+                        "value": 20
+                    },
                     "rarity": "common",
                     "item_name": "Dupe Hack",
                     "item_model": "minecraft:missingno",
@@ -16,7 +28,7 @@
                     "consumable": {
                         "animation": "eat",
                         "has_consume_particles": false,
-                        "consume_seconds": 99999999999999
+                        "consume_seconds": 1000000
                     }
                 }
             }]

@@ -1,0 +1,1 @@
+scoreboard players set #break_chance dupe_hack.config 30

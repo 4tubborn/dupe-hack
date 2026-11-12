@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:recovery_compass",
+            "predicates": {
+                "custom_data": {"id": "dupe_hack:dupe_hack"}
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "text": "advancements.dupe_hack.root.title"
+    },
+    "announce_to_chat": true,
+    "background": "minecraft:gui/sprites/hud/crosshair",
+    "description": {
+      "text": "advancements.dupe_hack.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:recovery_compass",
+      "components": {
+        "item_model": "minecraft:missingno"
+      }
+    },
+    "show_toast": true
+  },
+  "requirements": [[""]],
+  "sends_telemetry_event": false
+}

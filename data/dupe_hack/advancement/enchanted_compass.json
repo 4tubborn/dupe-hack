@@ -1,0 +1,42 @@
+{
+  "parent": "dupe_hack:root",
+  "criteria": {
+    "": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:recovery_compass",
+            "predicates": {
+                "enchantments": [{
+                  "levels": {
+                    "min": 1
+                  }
+                }]
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancements.dupe_hack.enchanted_compass.title",
+      "fallback": "How Do You Get There?"
+    },
+    "description": {
+      "translate": "advancements.dupe_hack.enchanted_compass.description",
+      "fallback": "It is a Problem"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:recovery_compass",
+      "components": {
+        "enchantment_glint_override": true
+      }
+    },
+    "hidden": true
+  },
+  "requirements": [[""]],
+  "sends_telemetry_event": false
+}
