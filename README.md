@@ -6,7 +6,7 @@ Duplicate items like it's April Fools' Day!
 
 ### Obtaining
 
-- Kill mobs or destroy entities with containers for a chance to obtain Dupe Hack.
+- Kill mobs or entities with containers for a chance to obtain Dupe Hack.
 - The Looting enchantment increases the drop chance when killing **mobs**.
 
 - Or cheat one in using `/function dupe_hack:give` .
@@ -15,6 +15,10 @@ Duplicate items like it's April Fools' Day!
 
 - Hold Dupe Hack in your main hand and the item you want to duplicate in your offhand.
 - Right-click to instantly duplicate the item!
+
+- Enchantment support:
+  - Fortune: Increases the number of duplicated items.
+  - Unbreaking: Reduces the chance of Dupe Hack breaking when used.
 
 ### Config
 
